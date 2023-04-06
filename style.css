@@ -1,0 +1,117 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400&family=Poppins:ital,wght@0,300;0,400;1,200&display=swap");
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	color: #fefcf8;
+	/* font-family: Gilroy; */
+	font-family: "Open Sans", sans-serif;
+	/* font-family: "Poppins", sans-serif; */
+}
+
+body,
+html {
+	height: 100%;
+	width: 100%;
+	background-color: #343541;
+	display: flex;
+	/* overflow: hidden; */
+}
+h1 {
+	font-size: 33px;
+	padding: 100px 0;
+}
+.sidebar {
+	background-color: #202123;
+	max-width: 244px;
+	width: 30%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	justify-content: space-between;
+	/* justify-content: space-evenly; */
+	height: 100vh;
+	width: 100%;
+	/* background-color: red; */
+	overflow: auto;
+}
+.bottom-section {
+	width: 100%;
+	height: 40%;
+	/* background-color: burlywood; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.info {
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 11px;
+	padding: 10px;
+	margin-bottom: 53px;
+}
+input {
+	border: none;
+	background-color: rgba(255, 255, 255, 0.05);
+	width: 100%;
+	font-size: 20px;
+	padding: 20px 15px;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.05) 0 54px 55px, rgba(0, 0, 0, 0.05) 0 -12px 30px, rgba(0, 0, 0, 0.05) 0 4px 6px, rgba(0, 0, 0, 0.05) 0 12px 3px,
+		rgba(0, 0, 0, 0.05) 0 -3px 5px;
+}
+input:focus {
+	outline: none;
+}
+.input-container {
+	width: 100%;
+	max-width: 850px;
+	position: relative;
+}
+.input-container #submit {
+	position: absolute;
+	right: 0%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	color: #232323;
+	/* color: #fff; */
+	font-size: 4vw;
+	cursor: pointer;
+	user-select: none;
+}
+button {
+	border: solid 0.5px rgba(255, 255, 255, 0.5);
+	background-color: transparent;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+}
+nav {
+	border-top: solid 0.5px rgba(255, 255, 255, 0.5);
+	padding: 10px;
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.history {
+	padding: 10px;
+	margin: 10px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.history p {
+	cursor: pointer;
+	margin: 5px 2px;
+	border: 1px solid #343541;
+	padding: 4px 6px;
+}
